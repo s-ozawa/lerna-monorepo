@@ -1,11 +1,11 @@
 {
-  "name": "server",
+  "name": "@services/batch",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "ozawaseijiro <seijiro-ozawa@iact.co.jp>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/server.js",
+  "main": "lib/batch.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,7 +13,14 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
+   "run": "node lib/index.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@packages/logger": "^0.0.0"
   }
 }

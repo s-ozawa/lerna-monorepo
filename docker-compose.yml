@@ -1,0 +1,7 @@
+version: '2'
+services:
+  cogmo-attend-console:
+    build: .
+    command: node bundle.js
+    ports:
+      - '3000:3000'

@@ -1,0 +1,11 @@
+0 silly argv {
+0 silly argv   _: [ 'run' ],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': '/Users/seijiro-ozawa/.npm/_npx/92843/bin/lerna',
+0 silly argv   script: 'run'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/seijiro-ozawa/go/src/github.com/iact-cogmo/lerna-repo
+3 error JSONError: Unexpected string in JSON at position 403 while parsing '{  "name": "@services/batch",  "versio' in ../../services/batch/package.json
+3 error     at module.exports (/Users/seijiro-ozawa/.npm/_npx/92843/lib/node_modules/lerna/node_modules/parse-json/index.js:26:19)
+3 error     at parse (/Users/seijiro-ozawa/.npm/_npx/92843/lib/node_modules/lerna/node_modules/load-json-file/index.js:15:9)

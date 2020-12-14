@@ -1,11 +1,11 @@
-# `client`
+# `@services/batch`
 
 > TODO: description
 
 ## Usage
 
 ```
-const client = require('client');
+const batch = require('@services/batch');
 
 // TODO: DEMONSTRATE API
 ```
